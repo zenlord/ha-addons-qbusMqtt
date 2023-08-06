@@ -1,0 +1,17 @@
+---
+name: "Qbus MQTT gateway"
+description: "Add the qbusMQTT gateway to Home Assistant as an add-on."
+documentation: "https://iot.qbus.be/nl/mqtt/inleiding"
+version: "1.2.0"
+slug: "qbus_MQTT_gw"
+init: false
+arch:
+  - amd64
+#host_network: true
+ports:
+  1883/tcp: 1883
+  8883/tcp: 8883
+startup: services
+init: false
+services:
+  - mqtt:want

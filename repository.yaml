@@ -1,0 +1,4 @@
+---
+name: Qbus MQTT gateway Home Assistant Addon
+url: https://github.com/zenlord/ha-addons-qbusMqtt
+maintainer: Vincent Van Houtte <vvh@aplusv.be>
